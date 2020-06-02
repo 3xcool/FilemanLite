@@ -1,0 +1,3 @@
+rootProject.name='FilemanLite'
+include ':app'
+include ':filemanlite'
