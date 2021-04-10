@@ -64,6 +64,7 @@ publishing {
             //https://medium.com/android-news/releasing-multi-module-android-library-in-gradle-7286cd667b4b
             pom {
                 println "developerConnection: ${developerConnection} "
+                packaging 'aar'
                 name = PUBLISH_ARTIFACT_ID
                 description = libraryDescription
                 url = libraryUrl
