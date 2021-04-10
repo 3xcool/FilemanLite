@@ -1,4 +1,4 @@
-package com.andrefilgs.filemanlite
+package com.andrefilgs.fileman
 
 import android.content.Context
 import java.io.*
@@ -24,7 +24,7 @@ class FilemanLite {
       return try {
         out.write(fileContent.toByteArray())
         out.close()
-        FilemanLogger.d( "File $filename write with success.\nContent is $fileContent")
+        FilemanLogger.d("File $filename write with success.\nContent is $fileContent")
         true
       } catch (e: IOException) {
         e.printStackTrace()
@@ -50,7 +50,7 @@ class FilemanLite {
           inputStream.close()
           val charset: Charset = Charsets.UTF_8
           content = String(buffer, charset)
-          FilemanLogger.d( "File $filename read with success.\nFile content is: $content")
+          FilemanLogger.d("File $filename read with success.\nFile content is: $content")
         }
       } catch (ex: Exception) {
         ex.printStackTrace()

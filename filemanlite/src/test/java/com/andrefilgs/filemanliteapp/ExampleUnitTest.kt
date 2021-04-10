@@ -1,4 +1,4 @@
-package com.andrefilgs.filemanlite
+package com.andrefilgs.filemanliteapp
 
 import org.junit.Test
 

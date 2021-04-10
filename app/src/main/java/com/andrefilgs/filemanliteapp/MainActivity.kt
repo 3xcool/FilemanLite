@@ -1,4 +1,4 @@
-package com.andrefilgs.filemanlite
+package com.andrefilgs.filemanliteapp
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

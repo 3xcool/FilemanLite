@@ -1,4 +1,4 @@
-package com.andrefilgs.filemanlite
+package com.andrefilgs.fileman
 
 import android.util.Log
 
