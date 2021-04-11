@@ -1,4 +1,7 @@
 # FilemanLite
+
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.3xcool/filemanlite/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.3xcool/filemanlite)
+
 Very Lightweight Library for File Management based on Fileman Library.
 
 # Dependency
