@@ -11,8 +11,7 @@ In build.graddle (Project)
   allprojects {
     repositories {
         google()
-        jcenter()
-        maven { url 'https://jitpack.io' }
+        mavenCentral
     }
   }
 ```
@@ -21,7 +20,7 @@ In build.graddle (Project)
 In build.graddle (app)
 ```kotlin
 dependencies {
-implementation 'com.github.3xcool:filemanlite:$LATEST_VERSION'
+implementation 'com.3xcool:filemanlite:$LATEST_VERSION'
 }
 ```
 
